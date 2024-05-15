@@ -12,6 +12,15 @@
     background-color: white;
 }
 
+body {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --color-a: lightblue;
+    --color-b: blue;
+}
+
 nav {
     background-color: hsla(206, 90%, 31%, 0.677);
     width: 100%;
@@ -34,5 +43,34 @@ nav ul li a {
     font-size: 25px;
 }
 
-<!-------------FIN DEL MENU NAVEGACION----------------->
+/*-------FIN DEL MENU NAVEGACION-------*/
 
+/*----------PRESENTACION---------------*/
+
+section {
+    font-size: 22px;
+    color: blue;
+    align: left;
+    height: 80vh;
+}
+
+img#logo-principal{
+    float: right;
+}
+
+#presentacion, #categorias, #funciones {
+    margin: 50px auto;
+    width: 80%;
+
+
+}
+
+#logo-principal{
+    float: center;
+    height: 350px;
+    width: auto;
+    background-color: white;
+}
+
+
+/* funciones */
