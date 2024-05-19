@@ -1,3 +1,9 @@
+/*
+id #
+class .
+ */
+
+
 *{
     margin: 0;
     padding: 0;
@@ -51,14 +57,14 @@ section {
     font-size: 22px;
     color: blue;
     align: left;
-    height: 80vh;
+    height: 100vh;
 }
 
 img#logo-principal{
     float: right;
 }
 
-#presentacion, #categorias, #funciones {
+#presentacion, #funciones, #contacto {
     margin: 50px auto;
     width: 80%;
 
@@ -73,4 +79,44 @@ img#logo-principal{
 }
 
 
-/* funciones */
+
+
+/*----------- boton de whatsapp------------*/
+/* detalles https://soporte.dongee.com/es/articles/3840414-como-anadir-el-boton-de-whatsapp-a-una-pagina-web   */
+.float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: lightblue;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+  /*  box-shadow: 2px 2px 3px #999;*/
+    z-index: 100;
+  }
+  
+  .float:hover {
+    text-decoration: none;
+    color: green;
+    background-color: white;
+    border: 1px solid green;
+  }
+  
+  
+  .my-float {
+    margin-top: 16px;
+  }
+
+/*-----fin de boton de whatsapp */
+
+/*-----funciones----*/
+#funciones img {
+    width: 220px;
+    height: auto;
+}
+.grid-funciones {
+
+}
