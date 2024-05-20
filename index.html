@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FarHos - Presentación</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
 </head>
 <body>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
@@ -111,22 +113,62 @@
 
             </section>
      </div>
-    <!---fin de funciones-->
+    <!---fin de opciones-->
 
-    <!---inicio de caracteristicas--->
+    <!---inicio de contacto--->
     <div class="impar">
             <section id="contacto">
-
             <h2>Pongase en contacto con nosotros</h2>
-            
+            <form action="https://formspree.io/f/mkndawqr" method="post">
+                <div>
+                    <label for="name">Nombre</label>
+                    <input id="name" type="text" placeholder="Ingrese su nombre" required />
+                  </div>
+                  <div>
+                    <label for="email">Mail</label>
+                    <input name="email" type="email" placeholder="Ingrese su mail" required />
+                  </div>
+                  <div>
+                    <label for="message">Mensaje</label>
+                    <textarea name="message" placeholder="Ingrese su mensaje"></textarea>
+                  </div>
+                  <button type="submit">ENVIAR...</button>
+
+            </form>
         </section>
     </div>
     
     <!---inicio de footer-->
-    <footer>
-        <section>
+    <div class="par">
 
-        </section>
-    </footer>
+        <footer class="footer">
+            <div class="grid-footer">
+                <div class="item-footer">
+                    <img id="logo-footer" src="images/logo_farhos.png" alt="Logo FarHos">
+                </div>
+            
+                <div class="item-footer">
+                    <h2>SOBRE NOSOTROS</h2>
+                    <p><strong><u>Dirección:</u></strong> Quilmes, Buenos Aires</p>
+                    <p><strong><u>Teléfono:</u></strong><a href="tel:1156967755"> 1156967755</a></p>
+                    <p><strong><u>Instagram:</u></strong> @FarmHos</p>
+                    <p><strong><u>Mail:</u></strong> <a target="_blank" href="mj_utn@yahoo.com.ar">mj_utn@yahoo.com.ar</a>
+                </div>
+            
+                <div class="item-footer">
+                    <h2>SIGUENOS</h2>
+                    <div class="redes">
+                        <!--usar boxcicons.com como fuente y copiar el código-->
+                        <a href="#" class="bx bxl-instagram"></a>
+                        <a href="#" class="bx bxl-twitter"></a>
+                        <a href="mailto:mj_utn@yahoo.com.ar" class="bx bxl-yahoo"></a>
+                    </div>
+                </div>
+
+            
+            </div>
+            
+            </footer>
+        </div>
 </body>
 </html>
