@@ -53,18 +53,19 @@ nav ul li a {
 section {
     font-size: 22px;
     color: blue;
-    height: 100vh;
+    min-height: 80vh;
+    padding: 25px;
 }
 
 img#logo-principal{
     float: right;
 }
 
-#presentacion, #funciones, #contacto {
+#presentacion, #funciones, #opciones, #contacto {
     margin: 50px auto;
     width: 80%;
     text-align: center;
-    align-items: center;
+    align-items: center; /*--- con centro todas las imágenes */
 }
 
 #logo-principal{
@@ -112,10 +113,9 @@ img#logo-principal{
 /*-----fin de boton de whatsapp */
 
 /*-----funciones----*/
-#funciones img {
+#funciones img, #opciones img {
     width: 220px;
     height: 180px;
-    align-items: center; /* no centra las imágenes*/
 }
 
 .grid-items {
@@ -123,6 +123,7 @@ img#logo-principal{
     grid-template-columns: repeat(3, 1fr);
     gap: 50px;
     padding: 20px;
+    align-items: center;
 }
 
 section h2, h3, p {
@@ -141,9 +142,7 @@ section h2, h3, p {
 }
 
 /*----idea: poner los items como si fuesen etiquetas de medicamentos-----*/
-#par.grid-items {
-    align-items: center; /* con esto si se centraron las imágenes */
-}
+
 
 .item {
     background-color: white;
